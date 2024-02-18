@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretesting]">
+  <test thread-count="5" name="testngTest(failed)">
+    <parameter name="password" value="dummyuser@123"/>
+    <parameter name="username" value="Duser123"/>
+    <classes>
+      <class name="www.lavatech.com.TestClass">
+        <methods>
+          <include name="signUp" invocation-numbers="0"/>
+          <include name="contactUs"/>
+          <include name="closeSite"/>
+          <include name="cart"/>
+          <include name="connectSite"/>
+          <include name="placeOrder"/>
+        </methods>
+      </class> <!-- www.lavatech.com.TestClass -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretesting] -->

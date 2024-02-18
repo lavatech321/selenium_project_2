@@ -1,0 +1,9 @@
+<suite name="softwaretesting">
+	<test name="testngTest">
+		<classes>
+		<parameter name="username" value="Duser123"/>
+		<parameter name="password" value="dummyuser@123"/>
+		<class name="www.lavatech.com.TestClass" />
+		</classes>
+	</test>
+</suite>
